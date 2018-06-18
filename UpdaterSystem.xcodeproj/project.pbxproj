@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06CD0D857C3C71D09FDA5C0C /* Pods_UpdaterSystemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289B974EF00274F98600DCA9 /* Pods_UpdaterSystemUITests.framework */; };
+		17D4786BD18E5F782D14FB0E /* Pods_UpdaterSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B7630C0137463E7ABE1131 /* Pods_UpdaterSystem.framework */; };
+		BA98FDCE061C144CCE7A2CEE /* Pods_UpdaterSystemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B2A9F1C8AE05B1A6EA51EB /* Pods_UpdaterSystemTests.framework */; };
+		EC2BDE4A20D1A4FB005C93B6 /* SensorFirmwareUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2BDE4920D1A4FB005C93B6 /* SensorFirmwareUpdateManager.swift */; };
+		EC2BDE4E20D3EF6A005C93B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2BDE4D20D3EF6A005C93B6 /* Constants.swift */; };
+		ECAB7C0820D18ADD0078A0E2 /* UpdateSensorFirmwareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB7C0720D18ADD0078A0E2 /* UpdateSensorFirmwareViewController.swift */; };
+		ECAB7C0A20D18B1C0078A0E2 /* UpdateSensorFirmware.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB7C0920D18B1C0078A0E2 /* UpdateSensorFirmware.storyboard */; };
 		ECCFD7E920D1602D003DFF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFD7E820D1602D003DFF96 /* AppDelegate.swift */; };
 		ECCFD7EB20D1602D003DFF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCFD7EA20D1602D003DFF96 /* ViewController.swift */; };
 		ECCFD7EE20D1602D003DFF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCFD7EC20D1602D003DFF96 /* Main.storyboard */; };
@@ -34,6 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27B2A9F1C8AE05B1A6EA51EB /* Pods_UpdaterSystemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpdaterSystemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B974EF00274F98600DCA9 /* Pods_UpdaterSystemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpdaterSystemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED06E6BF70EDABCA0A4470B /* Pods-UpdaterSystemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpdaterSystemUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpdaterSystemUITests/Pods-UpdaterSystemUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A6739780BB9FCBC648A4037 /* Pods-UpdaterSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpdaterSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UpdaterSystem/Pods-UpdaterSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		7F7E9C8122076BD0BD32F349 /* Pods-UpdaterSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpdaterSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpdaterSystem/Pods-UpdaterSystem.release.xcconfig"; sourceTree = "<group>"; };
+		850F939583CC530D285ED977 /* Pods-UpdaterSystemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpdaterSystemTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpdaterSystemTests/Pods-UpdaterSystemTests.release.xcconfig"; sourceTree = "<group>"; };
+		86B7630C0137463E7ABE1131 /* Pods_UpdaterSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpdaterSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85B121E21B6AE475794F826 /* Pods-UpdaterSystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpdaterSystemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UpdaterSystemTests/Pods-UpdaterSystemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA8974AD83577907FF0BC98 /* Pods-UpdaterSystemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpdaterSystemUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UpdaterSystemUITests/Pods-UpdaterSystemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2BDE4920D1A4FB005C93B6 /* SensorFirmwareUpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorFirmwareUpdateManager.swift; sourceTree = "<group>"; };
+		EC2BDE4D20D3EF6A005C93B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ECAB7C0720D18ADD0078A0E2 /* UpdateSensorFirmwareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSensorFirmwareViewController.swift; sourceTree = "<group>"; };
+		ECAB7C0920D18B1C0078A0E2 /* UpdateSensorFirmware.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpdateSensorFirmware.storyboard; sourceTree = "<group>"; };
 		ECCFD7E520D1602D003DFF96 /* UpdaterSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpdaterSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCFD7E820D1602D003DFF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCFD7EA20D1602D003DFF96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D4786BD18E5F782D14FB0E /* Pods_UpdaterSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA98FDCE061C144CCE7A2CEE /* Pods_UpdaterSystemTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CD0D857C3C71D09FDA5C0C /* Pods_UpdaterSystemUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C4FEA2ACC1298098C241B3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B7630C0137463E7ABE1131 /* Pods_UpdaterSystem.framework */,
+				27B2A9F1C8AE05B1A6EA51EB /* Pods_UpdaterSystemTests.framework */,
+				289B974EF00274F98600DCA9 /* Pods_UpdaterSystemUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECAB7C0520D163950078A0E2 /* UpdateFlow */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB7C0720D18ADD0078A0E2 /* UpdateSensorFirmwareViewController.swift */,
+				ECAB7C0920D18B1C0078A0E2 /* UpdateSensorFirmware.storyboard */,
+			);
+			path = UpdateFlow;
+			sourceTree = "<group>";
+		};
+		ECAB7C0620D189F90078A0E2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC2BDE4920D1A4FB005C93B6 /* SensorFirmwareUpdateManager.swift */,
+				EC2BDE4D20D3EF6A005C93B6 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		ECCFD7DC20D1602D003DFF96 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +132,8 @@
 				ECCFD7FC20D16030003DFF96 /* UpdaterSystemTests */,
 				ECCFD80720D16030003DFF96 /* UpdaterSystemUITests */,
 				ECCFD7E620D1602D003DFF96 /* Products */,
+				EE0363785B5FEB3E229F51C6 /* Pods */,
+				8C4FEA2ACC1298098C241B3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +150,8 @@
 		ECCFD7E720D1602D003DFF96 /* UpdaterSystem */ = {
 			isa = PBXGroup;
 			children = (
+				ECAB7C0620D189F90078A0E2 /* Utils */,
+				ECAB7C0520D163950078A0E2 /* UpdateFlow */,
 				ECCFD7E820D1602D003DFF96 /* AppDelegate.swift */,
 				ECCFD7EA20D1602D003DFF96 /* ViewController.swift */,
 				ECCFD7EC20D1602D003DFF96 /* Main.storyboard */,
@@ -125,6 +180,19 @@
 			path = UpdaterSystemUITests;
 			sourceTree = "<group>";
 		};
+		EE0363785B5FEB3E229F51C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A6739780BB9FCBC648A4037 /* Pods-UpdaterSystem.debug.xcconfig */,
+				7F7E9C8122076BD0BD32F349 /* Pods-UpdaterSystem.release.xcconfig */,
+				B85B121E21B6AE475794F826 /* Pods-UpdaterSystemTests.debug.xcconfig */,
+				850F939583CC530D285ED977 /* Pods-UpdaterSystemTests.release.xcconfig */,
+				CDA8974AD83577907FF0BC98 /* Pods-UpdaterSystemUITests.debug.xcconfig */,
+				4ED06E6BF70EDABCA0A4470B /* Pods-UpdaterSystemUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECCFD80D20D16030003DFF96 /* Build configuration list for PBXNativeTarget "UpdaterSystem" */;
 			buildPhases = (
+				505F57CAB0765B6D6F810564 /* [CP] Check Pods Manifest.lock */,
+				EC2BDE5120D3FCBD005C93B6 /* ShellScript */,
 				ECCFD7E120D1602D003DFF96 /* Sources */,
 				ECCFD7E220D1602D003DFF96 /* Frameworks */,
 				ECCFD7E320D1602D003DFF96 /* Resources */,
+				4ECAB71BE30A44DDD3828AD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECCFD81020D16030003DFF96 /* Build configuration list for PBXNativeTarget "UpdaterSystemTests" */;
 			buildPhases = (
+				1C0AD6449110D0D96DC7E514 /* [CP] Check Pods Manifest.lock */,
 				ECCFD7F520D16030003DFF96 /* Sources */,
 				ECCFD7F620D16030003DFF96 /* Frameworks */,
 				ECCFD7F720D16030003DFF96 /* Resources */,
@@ -167,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECCFD81320D16030003DFF96 /* Build configuration list for PBXNativeTarget "UpdaterSystemUITests" */;
 			buildPhases = (
+				B94CB4BA530B15FA3E59FBC5 /* [CP] Check Pods Manifest.lock */,
 				ECCFD80020D16030003DFF96 /* Sources */,
 				ECCFD80120D16030003DFF96 /* Frameworks */,
 				ECCFD80220D16030003DFF96 /* Resources */,
@@ -229,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAB7C0A20D18B1C0078A0E2 /* UpdateSensorFirmware.storyboard in Resources */,
 				ECCFD7F320D16030003DFF96 /* LaunchScreen.storyboard in Resources */,
 				ECCFD7F020D16030003DFF96 /* Assets.xcassets in Resources */,
 				ECCFD7EE20D1602D003DFF96 /* Main.storyboard in Resources */,
@@ -251,12 +325,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C0AD6449110D0D96DC7E514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpdaterSystemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ECAB71BE30A44DDD3828AD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UpdaterSystem/Pods-UpdaterSystem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxBluetoothKit/RxBluetoothKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBluetoothKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDFULibrary.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpdaterSystem/Pods-UpdaterSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		505F57CAB0765B6D6F810564 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpdaterSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94CB4BA530B15FA3E59FBC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpdaterSystemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2BDE5120D3FCBD005C93B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECCFD7E120D1602D003DFF96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2BDE4A20D1A4FB005C93B6 /* SensorFirmwareUpdateManager.swift in Sources */,
 				ECCFD7EB20D1602D003DFF96 /* ViewController.swift in Sources */,
+				ECAB7C0820D18ADD0078A0E2 /* UpdateSensorFirmwareViewController.swift in Sources */,
+				EC2BDE4E20D3EF6A005C93B6 /* Constants.swift in Sources */,
 				ECCFD7E920D1602D003DFF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +603,12 @@
 		};
 		ECCFD80E20D16030003DFF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6739780BB9FCBC648A4037 /* Pods-UpdaterSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3QC6JMZ7L;
 				INFOPLIST_FILE = UpdaterSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +616,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.redison.UpdaterSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,9 +624,12 @@
 		};
 		ECCFD80F20D16030003DFF96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7E9C8122076BD0BD32F349 /* Pods-UpdaterSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3QC6JMZ7L;
 				INFOPLIST_FILE = UpdaterSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +637,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.redison.UpdaterSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +645,7 @@
 		};
 		ECCFD81120D16030003DFF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85B121E21B6AE475794F826 /* Pods-UpdaterSystemTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +666,7 @@
 		};
 		ECCFD81220D16030003DFF96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850F939583CC530D285ED977 /* Pods-UpdaterSystemTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +687,7 @@
 		};
 		ECCFD81420D16030003DFF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA8974AD83577907FF0BC98 /* Pods-UpdaterSystemUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +707,7 @@
 		};
 		ECCFD81520D16030003DFF96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED06E6BF70EDABCA0A4470B /* Pods-UpdaterSystemUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

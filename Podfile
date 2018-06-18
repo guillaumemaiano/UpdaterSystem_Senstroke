@@ -9,8 +9,11 @@ target 'UpdaterSystem' do
 
 # for now, any version will do
   pod 'iOSDFULibrary'
-
-  target 'UpdaterSystemTests' do
+  pod 'RxSwift'
+  pod 'RxSwiftExt'
+  pod 'RxCocoa'
+  pod 'RxBluetoothKit'
+target 'UpdaterSystemTests' do
     inherit! :search_paths
     # Pods for testing
   end

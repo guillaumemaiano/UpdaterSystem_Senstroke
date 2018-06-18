@@ -1,0 +1,5 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - UpdaterSystem/AppDelegate.swift # because comments have long lines and I don't know how to unset only that rule for that file from here
+  - UpdaterSystem/Utils/ActivityIndicator.swift
